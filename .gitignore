@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+platforms/
+plugins/
+
+portal/app/bundle.js
+www/app/bundle.js
+gamma.env
