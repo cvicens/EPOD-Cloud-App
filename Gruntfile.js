@@ -48,6 +48,7 @@ module.exports = function(grunt) {
       // environment variables - see https://github.com/jsoverson/grunt-env for more information
       local: {
         src: "gamma.env",
+        WFM_AUTH_GUID: '2jroskah2opjul7t4kjdkpp3',
         FH_USE_LOCAL_DB: true,
         FH_SERVICE_MAP: function() {
           /*
@@ -57,7 +58,7 @@ module.exports = function(grunt) {
            * or a remote instance.
            */
           var serviceMap = {
-            'iidn3tvprs62asdebat5m3eg': 'http://localhost:8002'
+            '2jroskah2opjul7t4kjdkpp3': 'http://localhost:8002'
           };
           return JSON.stringify(serviceMap);
         }
